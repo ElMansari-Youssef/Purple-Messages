@@ -6,6 +6,8 @@
     box-sizing: border-box;
 }
 
+
+
 body {
     display: flex;
     justify-content: center;
@@ -13,6 +15,8 @@ body {
     font-family: poppins;
     background-color: #EBC7E5;
 }
+
+
 
 .container {
 
@@ -179,6 +183,18 @@ body {
         transform: translateX(0);
         opacity: 1;
     }
+
+}
+
+.mainChat .chatContainer i {
+    transition: transform 0.1s ease-out;
+}
+
+.mainChat .chatContainer i:hover {
+
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: transform 0.1s ease-out;
 
 }
 
